@@ -104,7 +104,7 @@ body {  /*nền của trang web
     width: 150px;
     border-radius: 50%;
     margin-right: 2.5vw;
-    box-shadow:3px 2px 2px 2px rgba(255, 0, 0, 0.912);;
+    box-shadow:3px 2px 2px 4px rgba(255, 0, 0, 0.3);
 }
 
 
@@ -131,6 +131,12 @@ body {  /*nền của trang web
     margin: 10px;
 }
 
+.iconskill:hover {
+    transform: translateY(-10px) scale(1.2); /* Moves the paragraph 5px up */
+}
+img.iconskill{
+    transition: transform 0.3s ease; /* Smooth transition */
+}
 /* phan academic skill */
 .iconskill {
     display: block;

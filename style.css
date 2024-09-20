@@ -1,12 +1,7 @@
 * {
     font-size: 98%;
-}
-* {
     color: white;
-<<<<<<< HEAD
     font-family: Cursive, Monospace;
-=======
->>>>>>> bac59d2d9e5fb2b5097c09f92f2b3db72f7a6385
 }
 
 html {
@@ -194,6 +189,8 @@ img.iconskill{
 @media screen and (max-width: 600px){
     * {
         font-size: 98%;
+        color: white;
+        font-family: Cursive, Monospace;
     }
     .mainbody{
         margin-top: 10px;
@@ -223,8 +220,10 @@ img.iconskill{
         display: flex;
         align-items: center;
     }
-    .quote{
-        size: 1.65rem;
-        line-height: 1.4;
+    div.quote.lvl1{
+        font-style: italic;
+        font-size: 1.2rem;
+        font-family: Lucida Handwriting, "Monospace" ;
+        line-height: 1.4rem;
     }
 }

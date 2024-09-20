@@ -75,6 +75,7 @@ body {  /*nền của trang web
     display: flex;
     align-items: center;
     padding-left:10%;
+    flex-wrap: wrap;
 }
 
 .quote {
@@ -111,7 +112,7 @@ body {  /*nền của trang web
 /* Phan media */
 #SocialMedia{
     display:flex;
-
+    flex-wrap: wrap;
 }
 .social-link{
     box-sizing: border-box;
@@ -148,6 +149,7 @@ img.iconskill{
     display: flex;
     justify-content: space-around;
     margin-bottom:10px;
+    flex-wrap: wrap;
 }
 .Academicname {
     margin: 0%;

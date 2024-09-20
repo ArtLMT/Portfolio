@@ -1,0 +1,177 @@
+* {
+    font-size:98%;
+}
+* {
+    color: white;
+    font-family: Cursive, Monospace;
+}
+body {
+    background-color:black;
+}
+.mainbody{
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 100px;
+    align-items: center;
+    align-self:center;
+}
+.name {
+    color :red;
+    font-style:italic;
+}
+
+/* hover */
+.iconsocial:hover {
+    transform: translateY(-10px) scale(1.2); /* Moves the paragraph 5px up */
+}
+img.iconsocial{
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+
+/* chinh inline text */
+.bold {
+    font-weight: bold;
+}
+/* chinh font size  */
+.lvl1{
+    font-size:1.1rem;
+}
+/* ĐỐNG NAY dùng để cho Link nó đẹp hơn */
+
+.link{
+    margin-left: 1px ;
+    color:aliceblue ;
+}
+
+a:hover {
+    color: blue;
+}
+.title {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*
+body {  /*nền của trang web  
+    background-image: url('./Images/20240831132610.png');
+    background-size: cover; /* Đảm bảo hình ảnh bao phủ toàn bộ phần tử 
+    background-position: center; /* Căn giữa hình ảnh 
+    background-repeat: no-repeat;  /*Ngăn hình ảnh lặp lại *
+} 
+*/
+.greenwich {
+    color:red;
+}
+/* Phan about me */
+.introduction{
+    font-size: 3rem;
+    margin: 10px;
+}
+
+.potraitandquote{
+    display: flex;
+    align-items: center;
+    padding-left:10%;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote.lvl1 {
+    font-style: italic;
+    font-size: 1.7rem;
+    font-family: Lucida Handwriting, "Monospace" ;
+    line-height: 2.8rem;
+}
+.greeting {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.4rem;
+    align-self: center;
+}
+
+
+.potrait {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 2.5vw;
+}
+
+
+/* Phan media */
+#SocialMedia{
+    display:flex;
+    
+}
+.social-link{
+    box-sizing: border-box;
+    width: 25vw;
+    padding: 3px 0;
+    display:inline-flex;
+    flex-direction:row;
+    align-self: center;
+    margin : 0%;
+    justify-content: space-around;
+}
+
+.iconsocial{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+/* phan academic skill */
+.iconskill {
+    display: block;
+    margin:0%;
+    
+}
+
+.language{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:10px;
+}
+.Academicname {
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+}
+/* dong nay la cua phan project */
+
+.box {
+    width: 18vw;
+    height: 18vw;
+    background-image:url(./Images/test.png);
+    object-fit: cover;
+    background-position: center;
+    background-size: auto;
+    box-sizing:content-box ;
+    border: 2px solid white;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.social-link > a {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+/* phan nay cua hobby */
+.hobbiesinfo{
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 5%;
+}

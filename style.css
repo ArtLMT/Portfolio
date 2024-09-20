@@ -228,8 +228,8 @@ img.iconskill{
     }
     .iconsocial{
         display: flex;
-        width: 75%;
-        height: 75%;
+        width: 45px;
+        height: 45px;
         margin: 5px;
     }
 }

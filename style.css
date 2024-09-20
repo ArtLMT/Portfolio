@@ -226,10 +226,4 @@ img.iconskill{
         font-size: 1.2rem;
         line-height: 1.4rem;
     }
-    .iconsocial{
-        display: flex;
-        width: 45px;
-        height: 45px;
-        margin: 5px;
-    }
 }

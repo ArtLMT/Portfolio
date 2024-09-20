@@ -1,9 +1,9 @@
 * {
-    font-size:98%;
+    font-size: 98%;
 }
 * {
     color: white;
-    font-family: "Brush Script MT", "Comic Sans MS", "Segoe Script", Cursive, "Courier New", Monospace;
+    font-family: Cursive, Monospace;
 }
 
 html {
@@ -186,4 +186,42 @@ img.iconskill{
 .hobbiesinfo{
     background-color: rgba(0,0,0,0.1);
     border-radius: 5%;
+}
+
+@media screen and (max-width: 600px){
+    * {
+        font-size: 98%;
+    }
+    .mainbody{
+        margin-top: 10px;
+        margin-left: 5%;
+        margin-right: 5%;  
+        margin-bottom: 10px;
+        align-items: center;
+        align-self:center;
+    }
+    .potraitandquote {
+        display: flex;
+        align-items: center;
+        padding:0%;
+    }
+    .potrait {
+        display: inline-block;
+        align-self: center;
+        height: 40%;
+        width: 40%;
+        border-radius: 50%;
+        margin-left: 25%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        box-shadow:3px 2px 2px 4px rgba(255, 0, 0, 0.3);
+    }
+    .p {
+        display: flex;
+        align-items: center;
+    }
+    .quote{
+        size: 1.65rem;
+        line-height: 1.4;
+    }
 }
